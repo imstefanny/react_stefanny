@@ -1,0 +1,28 @@
+#main_card {
+  background-color: #f8d7da;
+  border: 1px solid #f8d7da;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#image_container {
+  transform: rotate(-5deg);
+  img {
+    transform: rotate(10deg);
+    width: 75%;
+  }
+}
+#image_name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+#banner_left {
+  transform: rotate(10deg);
+  position: absolute;
+  top: 1.5rem;
+  left: 5rem;
+  z-index: 1;
+  background-color: #c6ee71;
+}
+p {
+  font-size: 1.2rem;
+}
